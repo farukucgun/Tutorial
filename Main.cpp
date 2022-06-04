@@ -1,6 +1,12 @@
+#include <iostream>
+using namespace std;
+
+void display(string s) {
+    cout << "Hello, " << s <<  endl;
+}
 
 
-main() {
-
+main() {    
+    display("Faruk");
     return 0;
 }
